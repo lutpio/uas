@@ -3,4 +3,9 @@
   background-position: bottom ;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Knewave', cursive;
+  letter-spacing: 0.188rem;
+}
+.li-nav{
+  letter-spacing: 0.125rem;
 }
