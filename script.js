@@ -1,11 +1,11 @@
 $(document).ready(function () {
   $("#lokasi").mouseup(function () {
-    $(location).attr("href", "https://www.google.com/");
+    $(location).attr("href", "location.html");
   });
 });
 
 $(document).ready(function () {
   $("#wisata").mouseup(function () {
-    $(location).attr("href", "https://www.google.com/");
+    $(location).attr("href", "tour.html");
   });
 });
