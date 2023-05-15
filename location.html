@@ -27,6 +27,24 @@
 
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- EmailJs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("DBgWmq5UK305IyUER");
+      })();
+    </script>
+
+    <!-- sweetalert2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bootstrap-4/bootstrap-4.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </head>
   <body class="bg-white">
     <header class="sticky-top d-flex justify-content-center bg-white shadow py-1">
@@ -42,6 +60,14 @@
         </li>
       </ul>
     </header>
+    <span
+      class="btn2 contact"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+      id="contact-button"
+    >
+      <i class="fa-regular fa-envelope fa-lg"></i> Hubungi kami!
+    </span>
     <div class="container">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
@@ -59,6 +85,77 @@
           </li>
         </ul>
       </footer>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body row gx-4">
+            <div class="col-7">
+              <div>
+                <p class="mb-4 lh-lg">
+                  <span class="text-danger">
+                    Kami akan berada pada periode libur Lebaran, dari tanggal 17/04/2023 -
+                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang
+                    lebih lama untuk direspon.
+                  </span>
+                </p>
+                <p class="mb-4 lh-lg text-body-secondary">
+                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki
+                  pertanyaan atau komentar, silahkan hubungi kami menggunakan formulir
+                  ini.
+                </p>
+                <div class="text-center p-5 text-body-secondary">
+                  <p class="fs-1 shadow-lg fst-italic">
+                    PESAN <i class="fa-regular fa-comments fa-2xl px-2"></i
+                    ><i class="fa-solid fa-question fa-2xl px-2"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <form id="contact-form">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control rounded-1"
+                    id="email_id"
+                    name="email_id"
+                    required
+                  />
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    id="from_name"
+                    name="from_name"
+                    class="form-control rounded-1"
+                    required
+                  />
+                  <label for="from_name">Nama</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    style="height: 200px"
+                    required
+                  ></textarea>
+                  <label for="message">Pesan</label>
+                </div>
+                <input type="submit" class="btn btn-primary w-100" value="Kirim" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.7.0.min.js"
