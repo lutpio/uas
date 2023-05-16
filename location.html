@@ -16,8 +16,14 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/bd49e73b8b.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bd49e73b8b.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
@@ -41,7 +47,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
   </head>
   <body class="bg-white">
-    <header class="d-flex justify-content-center shadow py-1">
+    <header class="sticky-top d-flex justify-content-center shadow py-1 bg-white">
       <ul class="nav nav-pills">
         <li class="li-nav nav-item p-2 fw-semibold">
           <a href="index.html" class="nav-link" aria-current="page">Beranda</a>
@@ -54,17 +60,48 @@
         </li>
       </ul>
     </header>
-    <div class="container mt-3">
-      <div class="ratio ratio-21x9">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43684.860276976695!2d116.46623036409619!3d-0.22838618174318248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df647aaaaaaaaab%3A0xa753c0dcb5fb770e!2sDanau%20Semayang!5e1!3m2!1sen!2sid!4v1684203359180!5m2!1sen!2sid"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+    <div class="container mt-3 px-4">
+      <div class="row gx-5 align-items-center ">
+        <div class="col-lg-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62877.03577649815!2d116.41578910995221!3d-0.24163262777072098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df634fc7be494c7%3A0x85d0232df0007307!2sDanau%20Semayang!5e1!3m2!1sid!2sid!4v1684206649888!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="shadow-lg border border-2 border-primary-subtle rounded-3"
+          ></iframe>
+        </div>
+        <div class="col-lg-6 col-sm-8 ">
+          <div class="callout callout-info">
+            <h4>Luas & kedalaman Danau</h4>
+            <ul style="list-style-type: none">
+              <li><h5><span class="fw-bold">Luas: </span> 13 ha</h5></li>
+              <li><h5><span class="fw-bold">Kedalaman: </span><i class="fa-solid fa-plus-minus"></i> 3,5 m</h5></li>
+            </ul>            
+          </div>
+          <div class="callout callout-info">
+            <h4>Jarak dari Kota Samarinda</h4>
+            <ul style="list-style-type: none">
+              <li><h5><i class="fa-solid fa-plus-minus"></i> 105 km</h5></li>
+            </ul>            
+          </div>
+          <div class="callout callout-info">
+            <h4>Desa Sekitar Danau</h4>
+            <h5>             
+              <ul style="list-style-type: none">
+                <li>Desa Semayang di Kec. Kenohan</li>
+                <li>Desa Tubuhan di Kec. Kenohan</li>
+                <li>Desa Pela di Kec. Kota Bangun</li>                
+              </ul>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="callout">
+        <p class="fw-medium"></p>                  
       </div>
     </div>
     <span
@@ -108,13 +145,14 @@
                 <p class="mb-4 lh-lg">
                   <span class="text-danger">
                     Kami akan berada pada periode libur Lebaran, dari tanggal 17/04/2023 -
-                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang lebih
-                    lama untuk direspon.
+                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang
+                    lebih lama untuk direspon.
                   </span>
                 </p>
                 <p class="mb-4 lh-lg text-body-secondary">
-                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki pertanyaan atau
-                  komentar, silahkan hubungi kami menggunakan formulir ini.
+                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki
+                  pertanyaan atau komentar, silahkan hubungi kami menggunakan formulir
+                  ini.
                 </p>
                 <div class="text-center p-5 text-body-secondary">
                   <p class="fs-1 shadow-lg fst-italic">
