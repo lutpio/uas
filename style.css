@@ -36,7 +36,7 @@
 }
 
 .btn2 {
-  bottom: 5px;
+  bottom: 36px;
   right: 12px;
   opacity: 0.8;
   color: white;
@@ -81,9 +81,7 @@
   .lead {
     text-align: justify;
   }
-  .btn2 {
-    bottom: 10px;
-  }
+
   h4 {
     font-size: 1.25rem;
   }
