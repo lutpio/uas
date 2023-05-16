@@ -50,16 +50,25 @@
     <header class="sticky-top d-flex justify-content-center bg-white shadow py-1">
       <ul class="nav nav-pills">
         <li class="li-nav nav-item p-2 fw-semibold">
-          <a href="index.html" class="nav-link" aria-current="page">Beranda</a>
+          <a href="index.html" class="nav-link">Beranda</a>
         </li>
         <li class="li-nav nav-item p-2 fw-semibold">
-          <a href="tour.html" class="nav-link active">Wisata</a>
+          <a
+            href="tour.html"
+            class="nav-link active"
+            aria-current="page"
+            style="background-color: #4e94fd"
+            >Wisata</a
+          >
         </li>
         <li class="li-nav nav-item p-2 fw-semibold">
           <a href="location.html" class="nav-link">Lokasi</a>
         </li>
       </ul>
     </header>
+    <div class="container">
+      ppp
+    </div>
     <span
       class="btn2 contact"
       data-bs-toggle="modal"
@@ -95,10 +104,18 @@
     >
       <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
+          <div class="modal-header shadow-sm">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
           <div class="modal-body row gx-4">
-            <div class="col-7">
+            <div class="col-lg-7">
               <div>
-                <p class="mb-4 lh-lg">
+                <p class="mb-4 lh-lg col-sm-10">
                   <span class="text-danger">
                     Kami akan berada pada periode libur Lebaran, dari tanggal 17/04/2023 -
                     31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang
@@ -118,7 +135,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5">
               <form id="contact-form">
                 <div class="form-floating mb-3">
                   <input

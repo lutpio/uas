@@ -23,29 +23,31 @@ function pesan() {
   document.getElementById("email_id").value = "";
 }
 
-var resize = function() {
-  var screenWidth = parseInt($('body').width());
-  
-  if (screenWidth > 670) {
-    $( "div[name='hero']" ).removeClass( "text-center" );
-  }
-  
-  else {
-    $( "div[name='hero']" ).addClass( "text-center" );
-  }
-}
+var resize = function () {
+  var screenWidth = parseInt($("body").width());
 
-$( window ).resize(function() {
+  if (screenWidth > 670) {
+    $("div[name='hero']").removeClass("text-center");
+    $("h1[name='top-header']").addClass("pb-5");
+    $("h2[name='top-header']").addClass("pt-5");
+  } else {
+    $("h1[name='top-header']").removeClass("pb-5");
+    $("h2[name='top-header']").removeClass("pt-5");
+    $("div[name='hero']").addClass("text-center");
+  }
+};
+
+$(window).resize(function () {
   resize();
 });
 
-$( document ).ready(function() {
+$(document).ready(function () {
   resize();
 });
 
 document.getElementById("contact-form").addEventListener("submit", function (event) {
   event.preventDefault();
-  
+
   // these IDs from the previous steps
   emailjs.sendForm("service_tx07oae", "template_5zftvfk", this).then(
     function () {
@@ -57,4 +59,3 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     }
   );
 });
-

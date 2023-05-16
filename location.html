@@ -16,8 +16,14 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/bd49e73b8b.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bd49e73b8b.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
@@ -44,13 +50,19 @@
     <header class="sticky-top d-flex justify-content-center shadow py-1 bg-white">
       <ul class="nav nav-pills">
         <li class="li-nav nav-item p-2 fw-semibold">
-          <a href="index.html" class="nav-link" aria-current="page">Beranda</a>
+          <a href="index.html" class="nav-link">Beranda</a>
         </li>
         <li class="li-nav nav-item p-2 fw-semibold">
           <a href="tour.html" class="nav-link">Wisata</a>
         </li>
         <li class="li-nav nav-item p-2 fw-semibold">
-          <a href="location.html" class="nav-link active">Lokasi</a>
+          <a
+            href="location.html"
+            class="nav-link active"
+            aria-current="page"
+            style="background-color: #4e94fd"
+            >Lokasi</a
+          >
         </li>
       </ul>
     </header>
@@ -73,8 +85,8 @@
               </li>
               <li>
                 <h5>
-                  <span class="fw-bold">Kedalaman: </span><i class="fa-solid fa-plus-minus"></i> 3,5
-                  m
+                  <span class="fw-bold">Kedalaman: </span
+                  ><i class="fa-solid fa-plus-minus"></i> 3,5 m
                 </h5>
               </li>
             </ul>
@@ -118,8 +130,10 @@
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              Anda bisa menyewa Ces / Ketinting saat berada di Kota Bangun dengan harga sewa
-              &plusmn;Rp500.000 pergi dan kembali.
+              <p>
+                Anda bisa menyewa <i>Ces / Ketinting</i> saat berada di Kota Bangun dengan harga
+                sewa &plusmn;Rp500.000 pergi dan kembali.
+              </p>
             </div>
           </div>
         </div>
@@ -143,15 +157,16 @@
           >
             <div class="accordion-body">
               <p>
-                Ada dua cara, yaitu jalur air dan darat.<strong> Pertama</strong> jika memilih jalur
-                air, maka anda dapat mencari <i>Taxi Ces</i> saat berada di Kota Bangun dengan tarif
-                &plusmn;Rp100.000.
+                Ada dua cara, yaitu jalur air dan darat.<strong> Pertama</strong> jika
+                memilih jalur air, maka anda dapat mencari jasa <i>Taxi Ces</i> saat
+                berada di Kota Bangun dengan tarif &plusmn;Rp100.000.
               </p>
               <p>
-                <strong>Kedua</strong>, jika memilih lewat jalan darat, sebelum ke pusat kota Bangun
-                (sebelum rumah sakit), cari pertigaan, lalu belok kanan. Kemudian seberangi jembatan
-                Martadipura (jembatan panjang). Kemudian maju terus dan perhatikan kiri jalan, anda
-                akan melihat plang penunjuk jalan menuju semayang.
+                <strong>Kedua</strong>, jika memilih lewat jalan darat, sebelum ke pusat
+                kota Bangun (sebelum rumah sakit), cari pertigaan, lalu belok kanan.
+                Kemudian seberangi jembatan Martadipura (jembatan panjang). Kemudian maju
+                terus dan perhatikan kiri jalan, anda akan melihat plang penunjuk jalan
+                menuju semayang.
               </p>
             </div>
           </div>
@@ -166,7 +181,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              Accordion Item #3
+              Bagaimana cara saya menuju Desa Pela?
             </button>
           </h2>
           <div
@@ -175,11 +190,11 @@
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
-              more exciting happening here in terms of content, but just filling up the space to
-              make it look, at least at first glance, a bit more representative of how this would
-              look in a real-world application.
+              <p>
+                Anda bisa menggunakan jasa penyebrangan <i>kapal kelotok</i> dari Kota
+                Bangun langsung menuju ke desa Pela, atau anda dapat singgah ke desa
+                Sangkuliman (desa Pela Baru) lalu pergi ke desa Pela.
+              </p>
             </div>
           </div>
         </div>
@@ -220,19 +235,28 @@
     >
       <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
+          <div class="modal-header shadow-sm">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
           <div class="modal-body row gx-4">
-            <div class="col-7">
+            <div class="col-lg-7">
               <div>
-                <p class="mb-4 lh-lg">
+                <p class="mb-4 lh-lg col-sm-10">
                   <span class="text-danger">
                     Kami akan berada pada periode libur Lebaran, dari tanggal 17/04/2023 -
-                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang lebih
-                    lama untuk direspon.
+                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang
+                    lebih lama untuk direspon.
                   </span>
                 </p>
                 <p class="mb-4 lh-lg text-body-secondary">
-                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki pertanyaan atau
-                  komentar, silahkan hubungi kami menggunakan formulir ini.
+                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki
+                  pertanyaan atau komentar, silahkan hubungi kami menggunakan formulir
+                  ini.
                 </p>
                 <div class="text-center p-5 text-body-secondary">
                   <p class="fs-1 shadow-lg fst-italic">
@@ -242,7 +266,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5">
               <form id="contact-form">
                 <div class="form-floating mb-3">
                   <input
