@@ -16,14 +16,8 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/bd49e73b8b.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/bd49e73b8b.js" crossorigin="anonymous"></script>
 
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
@@ -61,47 +55,134 @@
       </ul>
     </header>
     <div class="container mt-3 px-4">
-      <div class="row gx-5 align-items-center ">
-        <div class="col-lg-6">
+      <div class="row gx-5 align-items-center mb-3">
+        <div class="col-lg-6 col-sm-10">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62877.03577649815!2d116.41578910995221!3d-0.24163262777072098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df634fc7be494c7%3A0x85d0232df0007307!2sDanau%20Semayang!5e1!3m2!1sid!2sid!4v1684206649888!5m2!1sid!2sid"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            class="shadow-lg border border-2 border-primary-subtle rounded-3"
+            class="mapFrame shadow-lg border border-2 border-primary-subtle rounded-3 w-100"
           ></iframe>
         </div>
-        <div class="col-lg-6 col-sm-8 ">
+        <div class="col-lg-6">
           <div class="callout callout-info">
             <h4>Luas & kedalaman Danau</h4>
             <ul style="list-style-type: none">
-              <li><h5><span class="fw-bold">Luas: </span> 13 ha</h5></li>
-              <li><h5><span class="fw-bold">Kedalaman: </span><i class="fa-solid fa-plus-minus"></i> 3,5 m</h5></li>
-            </ul>            
+              <li>
+                <h5><span class="fw-bold">Luas: </span> 13 ha</h5>
+              </li>
+              <li>
+                <h5>
+                  <span class="fw-bold">Kedalaman: </span><i class="fa-solid fa-plus-minus"></i> 3,5
+                  m
+                </h5>
+              </li>
+            </ul>
           </div>
           <div class="callout callout-info">
             <h4>Jarak dari Kota Samarinda</h4>
             <ul style="list-style-type: none">
-              <li><h5><i class="fa-solid fa-plus-minus"></i> 105 km</h5></li>
-            </ul>            
+              <li>
+                <h5><i class="fa-solid fa-plus-minus"></i> 105 km</h5>
+              </li>
+            </ul>
           </div>
           <div class="callout callout-info">
             <h4>Desa Sekitar Danau</h4>
-            <h5>             
+            <h5>
               <ul style="list-style-type: none">
                 <li>Desa Semayang di Kec. Kenohan</li>
-                <li>Desa Tubuhan di Kec. Kenohan</li>
-                <li>Desa Pela di Kec. Kota Bangun</li>                
+                <li>Desa Pela di Kec. Kota Bangun</li>
               </ul>
             </h5>
           </div>
         </div>
       </div>
-      <div class="callout">
-        <p class="fw-medium"></p>                  
+      <div class="accordion accordion-flush shadow-sm" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Bagaimana cara saya pergi ke Danau Semayang?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Anda bisa menyewa Ces / Ketinting saat berada di Kota Bangun dengan harga sewa
+              &plusmn;Rp500.000 pergi dan kembali.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Bagaimana cara saya menuju Desa Semayang?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Ada dua cara, yaitu jalur air dan darat.<strong> Pertama</strong> jika memilih jalur
+                air, maka anda dapat mencari <i>Taxi Ces</i> saat berada di Kota Bangun dengan tarif
+                &plusmn;Rp100.000.
+              </p>
+              <p>
+                <strong>Kedua</strong>, jika memilih lewat jalan darat, sebelum ke pusat kota Bangun
+                (sebelum rumah sakit), cari pertigaan, lalu belok kanan. Kemudian seberangi jembatan
+                Martadipura (jembatan panjang). Kemudian maju terus dan perhatikan kiri jalan, anda
+                akan melihat plang penunjuk jalan menuju semayang.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Accordion Item #3
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
+              more exciting happening here in terms of content, but just filling up the space to
+              make it look, at least at first glance, a bit more representative of how this would
+              look in a real-world application.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <span
@@ -145,14 +226,13 @@
                 <p class="mb-4 lh-lg">
                   <span class="text-danger">
                     Kami akan berada pada periode libur Lebaran, dari tanggal 17/04/2023 -
-                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang
-                    lebih lama untuk direspon.
+                    31/05/2023, sehingga pesan yang anda kirim akan membutuhkan waktu yang lebih
+                    lama untuk direspon.
                   </span>
                 </p>
                 <p class="mb-4 lh-lg text-body-secondary">
-                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki
-                  pertanyaan atau komentar, silahkan hubungi kami menggunakan formulir
-                  ini.
+                  Terima kasih sudah mengunjungi di website kami. Jika Anda memiliki pertanyaan atau
+                  komentar, silahkan hubungi kami menggunakan formulir ini.
                 </p>
                 <div class="text-center p-5 text-body-secondary">
                   <p class="fs-1 shadow-lg fst-italic">

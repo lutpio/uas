@@ -23,6 +23,26 @@ function pesan() {
   document.getElementById("email_id").value = "";
 }
 
+var resize = function() {
+  var screenWidth = parseInt($('body').width());
+  
+  if (screenWidth > 670) {
+    $( "div[name='hero']" ).removeClass( "text-center" );
+  }
+  
+  else {
+    $( "div[name='hero']" ).addClass( "text-center" );
+  }
+}
+
+$( window ).resize(function() {
+  resize();
+});
+
+$( document ).ready(function() {
+  resize();
+});
+
 document.getElementById("contact-form").addEventListener("submit", function (event) {
   event.preventDefault();
   
@@ -37,19 +57,4 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     }
   );
 });
-// function SendMail() {
-//   let params = {
-//     from_name: document.getElementById("nama").value,
-//     email_id: document.getElementById("email").value,
-//     message: document.getElementById("pesan").value,
-//   };
-//   emailjs.send("service_tx07oae", "template_5zftvfk", params).then(
-//     function (response) {
-//       pesan();
-//       console.log("SUCCESS!", response.status);
-//     },
-//     function (error) {
-//       console.log("FAILED...", error);
-//     }
-//   );
-// }
+

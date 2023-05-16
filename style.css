@@ -21,6 +21,7 @@
 .btn1:hover {
   opacity: 1;
 }
+
 .message {
   padding: 15px 40px;
   background-color: #4e94fd;
@@ -45,7 +46,7 @@
   font-size: 0.75rem;
   text-align: center;
   display: inline-block;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .btn2:hover {
@@ -55,10 +56,9 @@
 .contact {
   background-color: #4e94fd;
   cursor: pointer;
-  
 }
 .callout {
-  padding: 1rem 1.25rem;  
+  padding: 1rem 1.25rem;
   margin-bottom: 1.25rem;
   margin-top: 1rem;
   color: var(--bd-callout-color, inherit);
@@ -68,4 +68,23 @@
 .callout-info {
   --bd-callout-color: var(--bs-info-text-emphasis);
   --bd-callout-border: var(--bs-info-border-subtle);
+}
+
+.mapFrame {
+  height: 450px;
+}
+@media (max-width: 670px) {
+  /* Tetapkan flex-direction milik .flex-list */
+  .mapFrame {
+    height: 250px;
+  }
+  .lead{
+    text-align: justify;
+  }
+  h4{
+    font-size: 1.25rem;
+  } 
+  h5{
+    font-size: 1.1rem;
+  } 
 }
