@@ -73,6 +73,10 @@
 .mapFrame {
   height: 450px;
 }
+
+.gambar img{
+  height: 400px;
+}
 @media (max-width: 670px) {
   /* Tetapkan flex-direction milik .flex-list */
   .mapFrame {
