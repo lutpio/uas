@@ -80,12 +80,19 @@
   }
   .lead {
     text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4d4d4d;
   }
-
+  .accordion-body {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4d4d4d;
+  }
   h4 {
     font-size: 1.25rem;
   }
   h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
