@@ -63,44 +63,117 @@
     <div class="container">
       <div class="row mt-3">
         <div class="col-sm-3">
-          <h1>List Wisata</h1>
-          <div class="list-group border border-primary-subtle">
-            <a href="" class="list-group-item list-group-item-action">Melihat Nelayan Menangkap Ikan</a>
-            <a href="" class="list-group-item list-group-item-action">Melihat Pesut Mahakam</a>
-            <a href="" class="list-group-item list-group-item-action">Menikmati Sunset</a>
-            <a href="" class="list-group-item list-group-item-action">Kuliner Serba Ikan</a>            
+          <div class="sticky-top z-2" style="top: 12%">
+            <h1>List Wisata</h1>
+            <div class="list-group border border-primary-subtle" id="scrollspy">
+              <a href="#nelayan" class="list-group-item list-group-item-action"
+                >Melihat Aktivitas Nelayan</a
+              >
+              <a href="#pesut" class="list-group-item list-group-item-action"
+                >Melihat Pesut Mahakam</a
+              >
+              <a href="#sunset" class="list-group-item list-group-item-action">Menikmati Sunset</a>
+              <a href="#kuliner" class="list-group-item list-group-item-action"
+                >Kuliner Serba Ikan</a
+              >
+            </div>
           </div>
         </div>
         <div class="col-sm-9 bg-body-tertiary">
-          <div>
-            <h1>Melihat Nelayan Menangkap Ikan</h1>
-            <div>
+          <div data-bs-spy="scroll" data-bs-target="#scrollspy">
+            <div id="nelayan">
+              <h1>Melihat Aktivitas Nelayan</h1>
               <div class="text-center gambar">
-                <img src="https://mediaetam.com/wp-content/uploads/2020/12/SAVE_20201213_174542.jpg" class=" w-75">
+                <img
+                  src="https://mediaetam.com/wp-content/uploads/2020/12/SAVE_20201213_174542.jpg"
+                  class="w-100 mb-3"
+                />
               </div>
-              <p>Disini anda dapat melihat langsung aktivitas para nelayan.</p>
+              <div>
+                <p>
+                  Di sini Anda juga bisa mengikuti banyak kegiatan para nelayan lainnya. Mereka
+                  mungkin terlihat sibuk menjala ikan. Anda dapat melihat dengan mata kepala sendiri
+                  bagaimana mereka dengan hati-hati melemparkan jalanya ke dalam air, mengeluarkan
+                  ikan yang tertangkap di dalamnya dan kemudian mengumpulkannya.
+                </p>
+                <p>
+                  Setelah kegiatan penangkapan ikan selesai, para nelayan akan menjual hasil
+                  tangkapannya. Anda dapat melihat mereka menawarkan ikan segar kepada pengunjung
+                  atau penduduk setempat. Ini adalah kesempatan besar bagi Anda untuk membeli bahan
+                  makanan laut segar langsung dari pemancing berpengalaman.
+                </p>
+              </div>
             </div>
-            <div>
+            <div id="pesut">
+              <h1>Melihat Pesut Mahakam</h1>
               <div class="text-center gambar">
-                <img src="https://mediaetam.com/wp-content/uploads/2023/03/Ilustrasi-Ikan-Asin.-Istimewa.jpeg" class=" w-75">
+                <img
+                  src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/12/18/711356446.jpeg"
+                  class="w-100 mb-3"
+                />
               </div>
-              <p>Disini anda dapat melihat langsung aktivitas para nelayan.</p>
+              <div>
+                <p>
+                  Anda mungkin beruntung jika bisa melihat Pesut di sekitar Danau Semayang. Pesut
+                  adalah makhluk yang sangat istimewa dan langka. Mereka memiliki penampilan yang
+                  menarik dengan tubuh langsing dan warna hitam keabu-abuan. Pesut juga memiliki
+                  moncong yang panjang dan lekukan yang khas di punggungnya.
+                </p>
+                <p>
+                  Memiliki kesempatan untuk melihat Pesut adalah pengalaman yang luar biasa.
+                  Keberadaan mereka menjadi indikator keragaman ekosistem air tawar yang unik di
+                  Indonesia. Pesut dilindungi karena statusnya yang terancam punah, sehingga melihat
+                  mereka di Danau Semayang bisa menjadi momen langka dan berkesan.
+                </p>
+              </div>
             </div>
-            <div>
+            <div id="sunset">
+              <h1>Menikmati Sunset</h1>
               <div class="text-center gambar">
-                <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/12/18/711356446.jpeg" class=" w-75">
+                <img
+                  src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/0e/83/d8/sunset-dari-tanjung-tamannoh.jpg"
+                  class="w-100 mb-3"
+                />
               </div>
-              <p>Disini anda dapat melihat langsung aktivitas para nelayan.</p>
+              <div>
+                <p>
+                  Pengunjung Danau Semayang memiliki kesempatan besar untuk menyaksikan matahari
+                  terbenam yang spektakuler. Saat matahari mulai terbenam di bawah cakrawala, langit
+                  akan dipenuhi warna-warna indah menciptakan suasana yang tenteram. Pemandangan
+                  matahari terbenam di atas Danau Semayang bisa menjadi momen yang berkesan dan
+                  mempesona bagi pengunjung.
+                </p>
+              </div>
             </div>
+            <div id="kuliner">
+              <h1>Kuliner Serba Ikan</h1>
               <div class="text-center gambar">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/0e/83/d8/sunset-dari-tanjung-tamannoh.jpg" class=" w-75">
+                <img
+                  src="https://mediaetam.com/wp-content/uploads/2023/03/Ilustrasi-Ikan-Asin.-Istimewa.jpeg"
+                  class="w-100 mb-3"
+                />
               </div>
-              <p>Disini anda dapat melihat langsung aktivitas para nelayan.</p>
+              <div>
+                <p>
+                  Saat berkunjung ke desa Pela di kota Bangun, jangan lewatkan kesempatan untuk
+                  menikmati kuliner khas ikan Ruwan dan Toman. Dari hidangan panggangan hingga
+                  gorengan, setiap hidangan menawarkan pengalaman bersantap yang memuaskan dan
+                  memanjakan lidah Anda. Menikmati kuliner khas ini juga merupakan cara yang bagus
+                  untuk mendukung dan menghargai warisan kuliner lokal.
+                </p>
+                <p>
+                  Jika Anda menginap di desa Semayang, Anda akan disuguhi hidangan khas, termasuk
+                  ikan asin. Ikan asin adalah hidangan yang terbuat dari ikan yang diasinkan atau
+                  diawetkan dengan garam. Di desa ini, ikan asin merupakan hidangan yang populer dan
+                  menjadi bagian dari budaya kuliner setempat.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <span
       class="btn2 contact"
       data-bs-toggle="modal"
