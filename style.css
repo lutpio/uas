@@ -77,6 +77,10 @@
 .gambar img{
   height: 400px;
 }
+.content-tour{
+  text-align: justify;
+  font-size: 18px;
+}
 @media (max-width: 670px) {
   /* Tetapkan flex-direction milik .flex-list */
   .mapFrame {
@@ -92,6 +96,14 @@
     font-size: 1rem;
     font-weight: 400;
     color: #4d4d4d;
+  }
+  .content-tour{    
+    font-size: 1rem;
+    color: #4d4d4d;
+    font-weight: 400;
+  }
+  .gambar img{
+    height: 200px;
   }
   h4 {
     font-size: 1.25rem;
